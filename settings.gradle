@@ -1,0 +1,4 @@
+include 'desktop', 'core'
+
+include ':libgdx-commons'
+project(':libgdx-commons').projectDir = new File(settingsDir, '../libgdx-commons')
